@@ -12,7 +12,8 @@
     "stylelint": "stylelint **/*.{css,less,scss} --fix",
     "prettier": "prettier -c --write \"**/*\"",
     "prepare": "husky install",
-    "commitlint": "commitlint --config .commitlintrc.js -e -V"
+    "commitlint": "commitlint --config .commitlintrc.js -e -V",
+    "preinstall": "npx only-allow pnpm"
   },
   "dependencies": {
     "umi": "^4.0.80"
